@@ -1,0 +1,5 @@
+.env
+node_modules/
+generations/*
+!generations/.gitkeep
+.DS_Store

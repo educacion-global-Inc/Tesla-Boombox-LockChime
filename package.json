@@ -1,0 +1,28 @@
+{
+  "name": "tesla-boombox-lockchime",
+  "version": "0.1.0",
+  "description": "Generate custom Tesla LockChime.wav lock sounds from natural-language prompts using ElevenLabs, or convert an existing MP3.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=18.17"
+  },
+  "bin": {
+    "lockchime": "src/cli.js"
+  },
+  "scripts": {
+    "generate": "node src/cli.js",
+    "convert": "node src/cli.js convert"
+  },
+  "keywords": [
+    "tesla",
+    "boombox",
+    "lockchime",
+    "elevenlabs",
+    "ffmpeg"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
